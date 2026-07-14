@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>To Do List</title>
+  <link href="main.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+	<div class="container">
+ <header>
+		<h1>To Do List</h1>
+		<form id="newTask">
+			<input 
+				type="text" 
+				name="newTaskInput" 
+				id="newTaskInput" 
+				placeholder="New Task" >
+			<input 
+				type="submit"
+				id="newTaskSubmit" 
+				value="Add task" />
+		</form>
+	</header>
+	<main>
+		<section class="taskList">
+			<h2>Tasks</h2>
+
+			<ul id="tasks">
+
+				<!-- <div class="task">
+					<div class="content">
+						<input 
+							type="text" 
+							class="text" 
+							value="A new task"
+							readonly>
+					</div>
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+					</div>
+				</div> -->
+
+			</ul>
+		</section>
+	</main>
+</div>
+  <script src="main.js"></script>
+</body>
+</html>
